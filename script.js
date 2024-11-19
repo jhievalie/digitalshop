@@ -9,12 +9,12 @@
 // ];
 
 const products = [
-    { id: 1, name: 'Digital Art Brush Pack', category: 'graphics', price: 19.99, image: '/repository/images/Digital_Art_Brush_Pack.jpg' },
-    { id: 2, name: 'Website Template', category: 'templates', price: 29.99, image: '/repository/images/Website_Template.jpg' },
-    { id: 3, name: 'Premium Font', category: 'fonts', price: 39.99, image: '/repository/images/Premium_Font_Collection.jpg' },
-    { id: 4, name: 'Icon Set', category: 'graphics', price: 9.99, image: '/repository/images/Icon_Set.jpg' },
-    { id: 5, name: 'E-book Template', category: 'templates', price: 14.99, image: '/repository/images/E-book_Template.jpg' },
-    { id: 6, name: 'Handwritten Font', category: 'fonts', price: 24.99, image: '/repository/images/Handwritten_Font.jpg' },
+    { id: 1, name: 'Digital Art Brush Pack', category: 'graphics', price: 19.99, image: '/digitalshop/images/Digital_Art_Brush_Pack.jpg' },
+    { id: 2, name: 'Website Template', category: 'templates', price: 29.99, image: '/digitalshop/images/Website_Template.jpg' },
+    { id: 3, name: 'Premium Font', category: 'fonts', price: 39.99, image: '/digitalshop/images/Premium_Font_Collection.jpg' },
+    { id: 4, name: 'Icon Set', category: 'graphics', price: 9.99, image: '/digitalshop/images/Icon_Set.jpg' },
+    { id: 5, name: 'E-book Template', category: 'templates', price: 14.99, image: '/digitalshop/images/E-book_Template.jpg' },
+    { id: 6, name: 'Handwritten Font', category: 'fonts', price: 24.99, image: '/digitalshop/images/Handwritten_Font.jpg' },
 ];
 
 // Cart functionality
