@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DigitalShop - Premium Digital Products</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <i class="fas fa-cube"></i>
+                <span>T Shop</span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#store">Store</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="cart-icon">
+                <i class="fas fa-shopping-cart"></i>
+                <span id="cart-count">0</span>
+            </div>
+            <div class="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home">
+            <div class="hero">
+                <h1>Elevate Your Digital Creations</h1>
+                <p>Discover premium digital assets to enhance your projects</p>
+                <a href="#store" class="cta-button">Explore Products</a>
+            </div>
+        </section>
+
+        <section id="featured-products">
+            <h2>Featured Products</h2>
+            <div class="product-grid" id="featured-products-grid"></div>
+        </section>
+
+        <section id="store">
+            <h2>Our Products</h2>
+            <div class="store-controls">
+                <input type="text" id="search" placeholder="Search products...">
+                <select id="category-filter">
+                    <option value="all">All Categories</option>
+                    <option value="graphics">Graphics</option>
+                    <option value="templates">Templates</option>
+                    <option value="fonts">Fonts</option>
+                </select>
+                <select id="sort-options">
+                    <option value="featured">Featured</option>
+                    <option value="price-low-high">Price: Low to High</option>
+                    <option value="price-high-low">Price: High to Low</option>
+                </select>
+            </div>
+            <div class="product-grid" id="store-products"></div>
+        </section>
+
+        <section id="testimonials">
+            <h2>What Our Customers Say</h2>
+            <div class="testimonial-grid">
+                <div class="testimonial">
+                    <img src="/images/John_Doe.jpg" alt="John Doe" class="testimonial-avatar">
+                    <p>"DigitalShop's assets have taken my designs to the next level. Highly recommended!"</p>
+                    <span>- John Doe, Graphic Designer</span>
+                </div>
+                <div class="testimonial">
+                    <img src="/images/Jane_Smith.png" alt="Jane Smith" class="testimonial-avatar">
+                    <p>"The quality and variety of products here are unmatched. A must-visit for any creative professional."</p>
+                    <span>- Jane Smith, Web Developer</span>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>About DigitalShop</h3>
+                <p>We provide high-quality digital assets for creatives and professionals worldwide.</p>
+            </div>
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#store">Store</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Connect With Us</h3>
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 T Shop. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
