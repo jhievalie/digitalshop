@@ -3,8 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DigitalShop - Premium Digital Products</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>T Shop - Premium Digital Products</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
     <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
 </head>
 <body>
@@ -17,7 +18,7 @@
             <ul class="nav-links">
                 <li><a href="#home">Home</a></li>
                 <li><a href="#store">Store</a></li>
-                <li><a href="#about">About</a></li>
+                <li><a href="#testimonials">Testimonials</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
             <div class="cart-icon">
@@ -31,6 +32,17 @@
             </div>
         </nav>
     </header>
+
+    <!-- Cart Modal -->
+    <div id="cart-modal" class="cart-modal">
+        <div class="cart-content">
+            <span class="close">&times;</span>
+            <h2>Your Cart</h2>
+            <div id="cart-items"></div>
+            <div id="cart-total"></div>
+            <button id="cart-button" class="checkout-button">Checkout</button>
+        </div>
+    </div>
 
     <main>
         <section id="home">
@@ -69,12 +81,12 @@
             <h2>What Our Customers Say</h2>
             <div class="testimonial-grid">
                 <div class="testimonial">
-                    <img src="https://jhievalie.github.io/digitalshop/images/John_Doe.jpg" alt="John Doe" class="testimonial-avatar">
+                    <img src="/images/John_Doe.jpg" alt="John Doe" class="testimonial-avatar">
                     <p>"DigitalShop's assets have taken my designs to the next level. Highly recommended!"</p>
                     <span>- John Doe, Graphic Designer</span>
                 </div>
                 <div class="testimonial">
-                    <img src="https://jhievalie.github.io/digitalshop/images/Jane_Smith.png" alt="Jane Smith" class="testimonial-avatar">
+                    <img src="/images/Jane_Smith.png" alt="Jane Smith" class="testimonial-avatar">
                     <p>"The quality and variety of products here are unmatched. A must-visit for any creative professional."</p>
                     <span>- Jane Smith, Web Developer</span>
                 </div>
@@ -82,10 +94,10 @@
         </section>
     </main>
 
-    <footer>
+    <footer id="contact">
         <div class="footer-content">
             <div class="footer-section">
-                <h3>About DigitalShop</h3>
+                <h3>About T Shop</h3>
                 <p>We provide high-quality digital assets for creatives and professionals worldwide.</p>
             </div>
             <div class="footer-section">
@@ -93,7 +105,7 @@
                 <ul>
                     <li><a href="#home">Home</a></li>
                     <li><a href="#store">Store</a></li>
-                    <li><a href="#about">About</a></li>
+                    <li><a href="#testimonials">Testimonials</a></li>
                     <li><a href="#contact">Contact</a></li>
                 </ul>
             </div>
@@ -112,6 +124,6 @@
         </div>
     </footer>
 
-    <script src="script.js"></script>
+    <script src="js/script.js"></script>
 </body>
 </html>
